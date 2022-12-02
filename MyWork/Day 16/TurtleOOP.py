@@ -23,3 +23,6 @@ my_screen = Screen()
 print(my_screen.canvheight)
 my_screen.bgcolor("black")
 my_screen.exitonclick()
+
+
+
