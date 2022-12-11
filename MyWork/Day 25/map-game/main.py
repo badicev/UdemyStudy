@@ -25,10 +25,10 @@ while len(guessed_districts) < 25:
     all_districts = districts.district.to_list()
 
     if answer_district == "Exit":
-        missing_districts = []
-        for district in all_districts:
-            if district not in guessed_districts:
-                missing_districts.append(district)
+        missing_districts = [district for district in all_districts if district not in guessed_districts]
+        # for district in all_districts:
+        #     if district not in guessed_districts:
+        #         missing_districts.append(district)
         new_data = pandas.DataFrame(missing_districts)
         new_data.to_csv("districts_that_you_should_learn")
         break
