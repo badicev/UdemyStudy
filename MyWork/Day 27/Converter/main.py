@@ -14,17 +14,16 @@ def wgs84_to_webmercator():
     wgs84_x = float(wgs84_input_x.get())
     wgs84_y = float(wgs84_input_y.get())
 
-    longitude = wgs84_y * (math.pi / 180)
-    latitude = wgs84_x * (math.pi / 180)
+    # 31.347
+    # 40.189
 
-    mercator_result_x = longitude * (20037508.34 / 180)
-    mercator_result_y = math.log(tan((90 + latitude) * math.pi / 360)) / (math.pi / 180)
+    mercator_result_x = wgs84_x * (20037508.34 / 180)
+    mercator_result_y = log(tan((90 + wgs84_y) * math.pi / 360)) / (math.pi / 180)
     mercator_result_y = mercator_result_y * (20037508.34 / 180)
 
     mercator_result_label_x.config(text=f"{mercator_result_x}")
     mercator_result_label_y.config(text=f"{mercator_result_y}")
 
-# Wrong results :D
 
 window = Tk()
 window.title("WGS 84 to Web Mercator converter")
