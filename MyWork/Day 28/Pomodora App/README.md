@@ -1,3 +1,6 @@
+Pomodoro is Italian for tomato. 🍅
+
+The traditional ratio of the Pomodoro Technique is 25 minutes of work followed by a 5-minute break.
 
 <p align="center">
 <!--   my-header-img -->
