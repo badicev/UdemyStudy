@@ -3,7 +3,9 @@
 import codecs
 import sys
 from tkinter import *
+import time
 
+import pandas
 # with codecs.open('Ru-Alphabet.csv', 'r', encoding='utf-8') as f:
 #     data = f.read()
 #     print(data)
@@ -11,15 +13,43 @@ from tkinter import *
 import pandas as pd
 import random
 
-ru = pd.read_csv("Ru-Alphabet.csv")
-print(ru)
-ru_alphabet_dict = ru.to_dict(orient="records")
+ru_alphabet_dict = {}
+
+try:
+    ru = pd.read_csv("data/letters_to_learn.csv")
+except FileNotFoundError:
+    original_data = pandas.read_csv("data/Ru-Alphabet.csv")
+    ru_alphabet_dict = original_data.to_dict(orient="records")
+else:
+    ru_alphabet_dict = ru.to_dict(orient="records")
+current_card = {}
 
 
 def next_card():
+    global current_card, flip_timer
+    window.after_cancel(flip_timer)
     current_card = random.choice(ru_alphabet_dict)
-    canvas.itemconfig(up, text="Russian")
-    canvas.itemconfig(down, text=current_card["Russian"])
+    canvas.itemconfig(up, text="Russian", fill="black")
+    canvas.itemconfig(down, text=current_card["Russian"], fill="black")
+    canvas.itemconfig(canvas_background, image=front)
+    flip_timer = window.after(3000, func=flip)
+
+
+def flip():
+    # To change the image:
+
+    canvas.itemconfig(up, text=current_card["English"], fill="white")
+    canvas.itemconfig(down, text=current_card["Example"], fill="white")
+    canvas.itemconfig(canvas_background, image=back)
+
+
+def is_known():
+    ru_alphabet_dict.remove(current_card)
+
+    data = pandas.DataFrame(ru_alphabet_dict)
+    data.to_csv("data/letters_to_learn", index=False)
+
+    next_card()
 
 
 # ---------------------------UI SETUP--------------------------------#
@@ -35,9 +65,11 @@ FONT_NAME = "Courier"
 
 window = Tk()
 window.title("Flash Card App")
-window.config(padx=50, pady=50, bg=LIGHT_GREEN)
+window.config(padx=50, pady=50, bg=MED_GREEN)
 
-canvas = Canvas(width=800, height=526, bg=LIGHT_GREEN, highlightthickness=False)
+flip_timer = window.after(3000, func=flip)
+
+canvas = Canvas(width=800, height=526, bg=MED_GREEN, highlightthickness=False)
 
 # IMAGE-PATH
 
@@ -54,7 +86,7 @@ import os
 
 
 front = PhotoImage(file="images/card_front.png")
-canvas.create_image(400, 263, image=front)
+canvas_background = canvas.create_image(400, 263, image=front)
 up = canvas.create_text(400, 150, text="Title", font=(FONT_NAME, 40, "italic"))
 down = canvas.create_text(400, 263, text="word", font=(FONT_NAME, 60, "bold"))
 canvas.grid(row=0, column=0, columnspan=2)
@@ -62,7 +94,7 @@ canvas.grid(row=0, column=0, columnspan=2)
 back = PhotoImage(file="images/card_back.png")
 
 right = PhotoImage(file="images/right.png")
-right_button = Button(image=right, highlightthickness=0, command=next_card)
+right_button = Button(image=right, highlightthickness=0, command=is_known)
 right_button.grid(row=1, column=0)
 
 wrong = PhotoImage(file="images/wrong.png")
