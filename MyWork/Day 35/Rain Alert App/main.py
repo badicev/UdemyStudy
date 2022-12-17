@@ -1,8 +1,6 @@
 import requests
 
-api_key = "a9883f2135ef033159f3c01430f6efcf"
-api_url = "https://api.openweathermap.org/data/2.5/weather?lat=39.897671&lon=32.699871&appid" \
-          "=c8b89ad35d54027fd5156a1720976e6c "
+api_key = "PLACEHOLDER"
 OWM_Endpoint = "http://api.openweathermap.org/data/2.5/forecast?"
 
 LATITUDE = 39.897671
