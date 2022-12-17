@@ -1,6 +1,6 @@
 import requests
-
-api_key = "PLACEHOLDER"
+import os
+api_key = os.environ.get("OWM_API_KEY")
 OWM_Endpoint = "http://api.openweathermap.org/data/2.5/forecast?"
 
 LATITUDE = 39.897671
