@@ -30,4 +30,9 @@ def find_articles(data):
 movies_list = []
 for a in find_articles(top100):
     movies_list.append(a)
-print(movies_list[::-1])  # reverse the list
+movies = movies_list[::-1]  # reverse the list
+
+with open("movies.txt", mode="w") as file:
+    for movie in movies:
+        file.write(f"[{movie}\n")
+
