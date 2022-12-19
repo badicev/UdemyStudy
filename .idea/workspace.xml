@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a9b64ad8-ed6c-4acf-9ede-a0c30c1379d1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/MyWork/Day 28/Pomodora App/main.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/MyWork/Day 16/TurtleOOP.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyWork/Day 17/FollowersOOP.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyWork/Day 17/data.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyWork/Day 17/main.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyWork/Day 17/question_model.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyWork/Day 17/quiz_brain.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2IK0cfYEwagKcuFAtiXk8ETpq36" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\basak\PycharmProjects\UdemyStudy\MyWork\Day 25" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a9b64ad8-ed6c-4acf-9ede-a0c30c1379d1" name="Changes" comment="" />
+      <created>1669915048487</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1669915048487</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Day 17 eklendi.">
+      <created>1669995896308</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669995896308</updated>
+    </task>
+    <task id="LOCAL-00002" summary="OOP Quiz eklendi.">
+      <created>1670020150819</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670020150819</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Turtle Challenges">
+      <created>1670074120725</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670074120725</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Turtle - Hirst Painting">
+      <created>1670079713940</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670079713940</updated>
+    </task>
+    <task id="LOCAL-00005" summary="EventListener and TurtleRace">
+      <created>1670144324380</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670144324380</updated>
+    </task>
+    <task id="LOCAL-00006" summary="File management">
+      <created>1670144516846</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1670144516846</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Snake game start">
+      <created>1670273398883</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1670273398883</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Snake game Part 1">
+      <created>1670277119330</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1670277119330</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Snake game Part 2">
+      <created>1670344425747</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1670344425747</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Pong Game Part 1">
+      <created>1670440751998</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1670440751998</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Pong Game Part 2">
+      <created>1670493118786</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1670493118786</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Auto Letters">
+      <created>1670515011000</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1670515011000</updated>
+    </task>
+    <task id="LOCAL-00013" summary="İlçe Bulma Oyunu">
+      <created>1670573198938</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1670573198938</updated>
+    </task>
+    <task id="LOCAL-00014" summary="İlçe Bulma Oyunu">
+      <created>1670746264391</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1670746264391</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Nato Phonetic Alphabet Project">
+      <created>1670746290038</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1670746290038</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Tkinter Usage">
+      <created>1670845273552</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1670845273552</updated>
+    </task>
+    <task id="LOCAL-00017" summary="WGS84 to Web Mercator Converter">
+      <created>1670855269390</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1670855269390</updated>
+    </task>
+    <task id="LOCAL-00018" summary="WGS84 to Web Mercator Converter Error Fix">
+      <created>1670866539394</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1670866539394</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Pomodoro Start">
+      <created>1670882085037</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1670882085037</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Day 17 eklendi." />
+    <MESSAGE value="OOP Quiz eklendi." />
+    <MESSAGE value="Turtle Challenges" />
+    <MESSAGE value="Turtle - Hirst Painting" />
+    <MESSAGE value="EventListener and TurtleRace" />
+    <MESSAGE value="File management" />
+    <MESSAGE value="Snake game start" />
+    <MESSAGE value="Snake game Part 1" />
+    <MESSAGE value="Snake game Part 2" />
+    <MESSAGE value="Pong Game Part 1" />
+    <MESSAGE value="Pong Game Part 2" />
+    <MESSAGE value="Auto Letters" />
+    <MESSAGE value="İlçe Bulma Oyunu" />
+    <MESSAGE value="Nato Phonetic Alphabet Project" />
+    <MESSAGE value="Tkinter Usage" />
+    <MESSAGE value="WGS84 to Web Mercator Converter" />
+    <MESSAGE value="WGS84 to Web Mercator Converter Error Fix" />
+    <MESSAGE value="Pomodoro Start" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pomodoro Start" />
+  </component>
+</project>
