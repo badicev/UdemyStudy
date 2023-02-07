@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9b64ad8-ed6c-4acf-9ede-a0c30c1379d1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/MyWork/Day 28/Pomodora App/main.py" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyWork/Day 56/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyWork/Day 41-42-43-44/images/fox1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyWork/Day 41-42-43-44/images/particles1.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +16,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -31,18 +35,22 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2IK0cfYEwagKcuFAtiXk8ETpq36" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/basak/PycharmProjects/UdemyStudy"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\basak\PycharmProjects\UdemyStudy\MyWork\Day 56\templates" />
       <recent name="C:\Users\basak\PycharmProjects\UdemyStudy\MyWork\Day 25" />
     </key>
   </component>
